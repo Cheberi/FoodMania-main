@@ -52,6 +52,7 @@
   border: none;
   background: none;
   cursor: pointer;
+  transition: color 0.2s;
 
   display: none;
 }
@@ -63,7 +64,7 @@
 }
 
 .icon-mobile-nav[name="close-outline"] {
-  display: none;
+  display:none;
 }
 
 .sticky .header {
@@ -207,11 +208,7 @@
 
 .step-img-box::before {
   width: 60%;
-  /* height: 60%; */
-
-  /* 60% of parent's width */
   padding-bottom: 60%;
-
   background-color: #fdf2e9;
   z-index: -2;
 }
